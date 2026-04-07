@@ -47,10 +47,11 @@
         }
 
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('1.jpg');
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('1.jpg');   /*Imagen*/
             background-size: cover;
             background-position: center;
-            height: 80vh;
+            background-attachment: scroll;
+            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -59,10 +60,16 @@
             color: white;
             padding: 0 20px;
         }
-
-        .hero h1 { font-size: 3.5rem; margin-bottom: 10px; }
-        .hero p { font-size: 1.5rem; margin-bottom: 30px; }
-
+        .hero h1 { 
+            font-size: 4.5rem;
+            margin-bottom: 5px; 
+            letter-spacing: 2px; 
+        }                                             /*Titulo*/
+        .hero p { 
+            font-size: 1.2rem; 
+            margin-bottom: 40px; 
+            opacity: 0.9; 
+        }
         .btn-cta {
             background: var(--rojo);
             color: white;
